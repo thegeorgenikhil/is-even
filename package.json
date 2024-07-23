@@ -1,0 +1,33 @@
+{
+  "name": "@thegeorgenikhil/is-even",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [
+    "even",
+    "odd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegeorgenikhil/is-even.git"
+  },
+  "author": "Nikhil George",
+  "license": "ISC",
+  "description": "A simple package to check if a number is even or not",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.2",
+    "typescript": "^5.5.4"
+  }
+}
